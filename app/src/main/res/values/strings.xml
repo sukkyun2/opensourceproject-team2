@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">basketballScoreBoard</string>
+    <string name="shot_chart">슛 차트</string>
+    <string name="foul_count">파울 카운트</string>
+    <string name="quarter_num">쿼터 수</string>
+    <string name="quarter_per_time">쿼터 당 시간</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACK</string>
+    <string name="Setting">Setting</string>
 </resources>

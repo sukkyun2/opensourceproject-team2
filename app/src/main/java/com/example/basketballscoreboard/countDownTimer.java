@@ -3,26 +3,17 @@ package com.example.basketballscoreboard;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
-import android.os.SystemClock;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.basketballscoreboard.R;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
-
 public class countDownTimer extends AppCompatActivity {
-    TextView textView ;
+        TextView textView ;
 
-    Button start, pause, reset, lap ;
+        Button start, pause, reset, lap ;
 
     long MillisecondTime, TimeBuff, UpdateTime = 0L ;
     long StartTime= 0L;  //시작시간
@@ -39,7 +30,7 @@ public class countDownTimer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.countdowntimer);
 
-        textView = (TextView)findViewById(R.id.textView);
+        textView = (TextView)findViewById(R.id.textView1);
         start = (Button)findViewById(R.id.button);
         pause = (Button)findViewById(R.id.button2);
         reset = (Button)findViewById(R.id.button3);
