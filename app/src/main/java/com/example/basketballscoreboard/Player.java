@@ -2,12 +2,11 @@ package com.example.basketballscoreboard;
 
 public class Player {
 
-    String name;
-    int numUniform;
+    public String name;
+    public String num; //userid
+    public String age;
+    public String  attempts; //슛 시도
+    public String success;  //슛 성공
 
-    //Count
-    int cntFoul;
-    int cntThreePointShot;
-    int cntTwoPointShot;
-    int cntFreeThrow;
+
 }
